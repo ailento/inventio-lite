@@ -105,6 +105,12 @@
           </div>
           -->
           <!-- Sidebar Menu -->
+		  
+		  <!-- GH: ver iconos 
+			https://getbootstrap.com/docs/3.3/components/ 
+			https://www.w3schools.com/icons/fontawesome_icons_webapp.asp
+		  -->
+		  
           <ul class="sidebar-menu">
             <li class="header">ADMINISTRACION</li>
             <?php if(isset($_SESSION["user_id"])):?>
@@ -112,14 +118,14 @@
             <li><a href="./?view=sell"><i class='fa fa-usd'></i> <span>Vender</span></a></li>
             <li><a href="./?view=sells"><i class='fa fa-shopping-cart'></i> <span>Ventas</span></a></li>
             <li class="hide"><a href="./?view=box"><i class='fa fa-cube'></i> <span>Caja</span></a></li>
-            <li><a href="./?view=products"><i class='fa fa-glass'></i> <span>Productos</span></a></li>
+            <li><a href="./?view=products"><i class='fa fa-tags'></i> <span>Productos</span></a></li>
+			<li><a href="./?view=clients"><i class='fa fa-user'></i> <span>Clientes</span></a></li>
+			<li><a href="./?view=providers"><i class='fa fa-truck'></i> <span>Proveedores</span></a></li>
 
-            <li class="treeview">
+            <li class="treeview hide">
               <a href="#"><i class='fa fa-database'></i> <span>Catalogos</span> <i class="fa fa-angle-left pull-right"></i></a>
               <ul class="treeview-menu">
                 <li><a href="./?view=categories">Categorias</a></li>
-                <li><a href="./?view=clients">Clientes</a></li>
-                <li><a href="./?view=providers">Proveedores</a></li>
               </ul>
             </li>
 
