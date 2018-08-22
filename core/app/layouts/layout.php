@@ -111,7 +111,7 @@
                         <li><a href="./index.php?view=home"><i class='fa fa-home'></i> <span>Inicio</span></a></li>
             <li><a href="./?view=sell"><i class='fa fa-usd'></i> <span>Vender</span></a></li>
             <li><a href="./?view=sells"><i class='fa fa-shopping-cart'></i> <span>Ventas</span></a></li>
-            <li><a href="./?view=box"><i class='fa fa-cube'></i> <span>Caja</span></a></li>
+            <li class="hide"><a href="./?view=box"><i class='fa fa-cube'></i> <span>Caja</span></a></li>
             <li><a href="./?view=products"><i class='fa fa-glass'></i> <span>Productos</span></a></li>
 
             <li class="treeview">
