@@ -41,9 +41,9 @@
         <!-- Logo -->
         <a href="./" class="logo">
           <!-- mini logo for sidebar mini 50x50 pixels -->
-          <span class="logo-mini"><b>I</b>L</span>
+          <span class="logo-mini"><b>G</b>H</span>
           <!-- logo for regular state and mobile devices -->
-          <span class="logo-lg"><b>INVENTIO</b>LITE</span>
+          <span class="logo-lg"><b>GRANDES</b>HOMBRES</span>
         </a>
 
         <!-- Header Navbar -->
@@ -173,7 +173,7 @@
         <div class="pull-right hidden-xs">
           <b>Version</b> 3.0
         </div>
-        <strong>Copyright &copy; 2016 <a href="http://evilnapsis.com/" target="_blank">Evilnapsis</a></strong>
+        <!-- strong>Copyright &copy; 2016 <a href="http://evilnapsis.com/" target="_blank">Evilnapsis</a></strong -->
       </footer>
       <?php else:?>
 <div class="login-box">
