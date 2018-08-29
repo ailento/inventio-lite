@@ -26,16 +26,6 @@ $categories = CategoryData::getAll();
     </div>
   </div>
   <div class="form-group">
-    <label for="inputEmail1" class="col-lg-2 control-label">Categoria</label>
-    <div class="col-md-6">
-    <select name="category_id" class="form-control">
-    <option value="">-- NINGUNA --</option>
-    <?php foreach($categories as $category):?>
-      <option value="<?php echo $category->id;?>"><?php echo $category->name;?></option>
-    <?php endforeach;?>
-      </select>    </div>
-  </div>
-  <div class="form-group">
     <label for="inputEmail1" class="col-lg-2 control-label">Descripcion</label>
     <div class="col-md-6">
       <textarea name="description" class="form-control" id="description" placeholder="Descripcion del Producto"></textarea>
@@ -53,10 +43,10 @@ $categories = CategoryData::getAll();
       <input type="text" name="price_out" required class="form-control" id="price_out" placeholder="Precio de salida">
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group hide">
     <label for="inputEmail1" class="col-lg-2 control-label">Unidad*</label>
     <div class="col-md-6">
-      <input type="text" name="unit" required class="form-control" id="unit" placeholder="Unidad del Producto">
+      <input value="1" type="text" name="unit" required class="form-control" id="unit" placeholder="Unidad del Producto">
     </div>
   </div>
 
