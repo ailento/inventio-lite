@@ -65,20 +65,14 @@
                   <span class=""><?php if(isset($_SESSION["user_id"]) ){ echo UserData::getById($_SESSION["user_id"])->name; 
 
                   }?> <b class="caret"></b> </span>
-
                 </a>
-                <ul class="dropdown-menu">
-                  <!-- The user image in the menu -->
-                  <li class="">
-                      <a href="http://evilnapsis.com/" target="_blank" class="">Ir a Evilnapsis</a>
-                      <a href="http://evilnapsis.com/product/inventio-max/" target="_blank" class="">Ver Inventio Max</a>
-                  </li>
-                  
+                <ul class="dropdown-menu" style="width: 100px;">
                   <!-- Menu Footer-->
-                  <li class="user-footer">
-                    <div class="pull-right">
-                      <a href="./logout.php" class="btn btn-default btn-flat">Salir</a>
-                    </div>
+                  <li class="">
+					  <a href="#" data-toggle="modal" data-target="#acercaDeModal" >Acerca de GH</a>
+                  </li>
+                  <li class="">
+					  <a href="./logout.php" >Salir</a>
                   </li>
                 </ul>
               </li>
@@ -248,6 +242,28 @@
           Both of these plugins are recommended to enhance the
           user experience. Slimscroll is required when using the
           fixed layout. -->
+
+		  
+		  
+<div class="modal fade" id="acercaDeModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Acerca De GH</h4>
+      </div>
+      <div class="modal-body">
+        <p>One fine body&hellip;</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
   </body>
 </html>
 
