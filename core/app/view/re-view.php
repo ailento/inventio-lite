@@ -23,7 +23,7 @@ if(count($products)>0){
 <h3>Resultados de la Busqueda</h3>
 <table class="table table-bordered table-hover">
 	<thead>
-		<th>Codigo</th>
+		<th>Codigo</	th>
 		<th>Nombre</th>
 		<th>Unidad</th>
 		<th>Precio unitario</th>
@@ -137,10 +137,10 @@ $clients = PersonData::getProviders();
     	</select>
     </div>
   </div>
-<div class="form-group">
+<div class="form-group hide">
     <label for="inputEmail1" class="col-lg-2 control-label">Efectivo</label>
     <div class="col-lg-10">
-      <input type="text" name="money" required class="form-control" id="money" placeholder="Efectivo">
+      <input value="<?php echo number_format($total); ?>" type="text" name="money" required class="form-control" id="money" placeholder="Efectivo">
     </div>
   </div>
   <div class="row">
@@ -180,19 +180,6 @@ $clients = PersonData::getProviders();
     </div>
   </div>
 </form>
-<script>
-	$("#processsell").submit(function(e){
-		money = $("#money").val();
-		if(money<<?php echo $total;?>){
-			alert("No se puede efectuar la operacion");
-			e.preventDefault();
-		}else{
-			go = confirm("Cambio: $"+(money-<?php echo $total;?>));
-			if(go){}
-				else{e.preventDefault();}
-		}
-	});
-</script>
 </div>
 </div>
 
