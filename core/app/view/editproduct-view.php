@@ -37,7 +37,7 @@ if($product!=null):
       <input type="text" name="name" class="form-control" id="name" value="<?php echo $product->name; ?>" placeholder="Nombre del Producto">
     </div>
   </div>
-    <div class="form-group">
+    <div class="form-group hide">
     <label for="inputEmail1" class="col-lg-3 control-label">Categoria</label>
     <div class="col-md-8">
     <select name="category_id" class="form-control">
@@ -72,7 +72,7 @@ if($product!=null):
       <input type="text" name="unit" class="form-control" id="unit" value="<?php echo $product->unit; ?>" placeholder="Unidad del Producto">
     </div>
   </div>
-  <div class="form-group">
+  <div class="form-group hide">
     <label for="inputEmail1" class="col-lg-3 control-label">Presentacion</label>
     <div class="col-md-8">
       <input type="text" name="presentation" class="form-control" id="inputEmail1" value="<?php echo $product->presentation; ?>" placeholder="Presentacion del Producto">
