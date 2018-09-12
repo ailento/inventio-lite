@@ -63,7 +63,7 @@ foreach($products as $product){
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
           <!-- small box -->
-          <div class="small-box bg-red">
+          <div class="small-box bg-red hide">
             <div class="inner">
               <h3><?php echo count(CategoryData::getAll());?></h3>
 
