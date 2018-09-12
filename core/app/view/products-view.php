@@ -86,7 +86,7 @@ if($px<=$npaginas):
 
 		<td style="width:70px;">
 		<a href="index.php?view=editproduct&id=<?php echo $product->id; ?>" class="btn btn-xs btn-warning"><i class="glyphicon glyphicon-pencil"></i></a>
-		<a href="index.php?view=delproduct&id=<?php echo $product->id; ?>" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a>
+		<a href="index.php?view=delproduct&id=<?php echo $product->id; ?>" class="btn btn-xs btn-danger hide"><i class="fa fa-trash"></i></a>
 		</td>
 	</tr>
 	<?php endforeach;?>
