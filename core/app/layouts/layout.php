@@ -69,7 +69,7 @@
                 <ul class="dropdown-menu" style="width: 100px;">
                   <!-- Menu Footer-->
                   <li class="">
-					  <a href="#" data-toggle="modal" data-target="#acercaDeModal" >Acerca de GH</a>
+					  <a href="#" data-toggle="modal" data-target="#acercaDeModal" >Acerca de <b>GH.STOCK</b></a>
                   </li>
                   <li class="">
 					  <a href="./logout.php" >Salir</a>
@@ -172,7 +172,7 @@
       <?php else:?>
 <div class="login-box">
       <div class="login-logo">
-        <a href="./">INVENTIO<b>LITE</b></a>
+        <a href="./">GrandesHombre<b>.STOCK</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processlogin" method="post">
@@ -250,13 +250,18 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title">Acerca De GH</h4>
+        <h4 class="modal-title">Acerca De <b>GH.STOCK</b></h4>
       </div>
       <div class="modal-body">
-        <p>One fine body&hellip;</p>
+        <p><b>GH.STOCK</b> es un sistema basado en <i>Inventio Lite</i> para el control de inventarios.</p>
+		<p><i>Inventio Lite</i> está desarrollado en PHP y MySQL y fue adaptado a las necesidades de la empresa Grandes Hombres, 
+		en el marco del proyecto de la cátedra de Habilitación Profecional (UTN, FRD 2018) .
+		
+		
+		</p>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">CERRAR</button>
       </div>
     </div><!-- /.modal-content -->
   </div><!-- /.modal-dialog -->
