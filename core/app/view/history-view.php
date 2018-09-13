@@ -104,7 +104,7 @@ $ototal = -1*OperationData::GetOutputQYesF($product->id);
 			<td><?php echo $operation->q; ?></td>
 			<td><?php echo $operation->getOperationType()->name; ?></td>
 			<td><?php echo $operation->created_at; ?></td>
-			<td style="width:40px;"><a href="#" id="oper-<?php echo $operation->id; ?>" class="btn tip btn-xs btn-danger" title="Eliminar"><i class="glyphicon glyphicon-trash"></i></a> </td>
+			<td style="width:40px;"><a href="#" id="oper-<?php echo $operation->id; ?>" class="btn tip btn-xs btn-danger hide" title="Eliminar"><i class="glyphicon glyphicon-trash"></i></a> </td>
 			<script>
 			$("#oper-"+<?php echo $operation->id; ?>).click(function(){
 				x = confirm("Estas seguro que quieres eliminar esto ??");

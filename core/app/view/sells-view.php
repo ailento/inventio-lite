@@ -15,7 +15,7 @@ if(count($products)>0){
 <table class="table table-bordered table-hover	">
 	<thead>
 		<th></th>
-		<th>Producto</th>
+		<th>ID Producto</th>
 		<th>Total</th>
 		<th>Fecha</th>
 		<th></th>
@@ -46,7 +46,7 @@ $total= $sell->total-$sell->discount;
 
 		</td>
 		<td><?php echo $sell->created_at; ?></td>
-		<td style="width:30px;"><a href="index.php?view=delsell&id=<?php echo $sell->id; ?>" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i></a></td>
+		<td style="width:30px;"><a href="index.php?view=delsell&id=<?php echo $sell->id; ?>" class="btn btn-xs btn-danger hide"><i class="fa fa-trash"></i></a></td>
 	</tr>
 
 <?php endforeach; ?>
