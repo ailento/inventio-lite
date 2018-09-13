@@ -172,7 +172,7 @@
       <?php else:?>
 <div class="login-box">
       <div class="login-logo">
-        <a href="./">GrandesHombre<b>.STOCK</b></a>
+        <a href="./">GH<b>.STOCK</b></a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <form action="./?action=processlogin" method="post">
