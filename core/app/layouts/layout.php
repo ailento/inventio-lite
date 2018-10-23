@@ -163,7 +163,7 @@
         </div>
       </div><!-- /.content-wrapper -->
 
-        <footer class="main-footer">
+        <footer class="hide main-footer">
         <div class="pull-right hidden-xs">
           <b>Version</b> 3.0
         </div>
