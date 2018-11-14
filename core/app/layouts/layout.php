@@ -255,7 +255,7 @@
       <div class="modal-body">
         <p><b>GH.STOCK</b> es un sistema basado en <i>Inventio Lite</i> para el control de inventarios.</p>
 		<p><i>Inventio Lite</i> está desarrollado en PHP y MySQL y fue adaptado a las necesidades de la empresa Grandes Hombres, 
-		en el marco del proyecto de la cátedra de Habilitación Profecional (UTN, FRD 2018) .
+		en el marco del proyecto de la cátedra de Habilitación Profesional (UTN, FRD 2018) .
 		
 		
 		</p>
